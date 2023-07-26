@@ -1,0 +1,23 @@
+body{
+    font-size:1.2rem;
+}
+.block{
+    width:150px;
+    height:150px;
+    background-color: #16161D;
+    color:#fffffa;
+    padding:1.5rem;
+    padding-left: 2rem;
+}
+.left{
+    float: left;
+    margin-right:1em;
+}
+.right{
+    float:right;
+    margin-left:1em;
+}
+section{
+    background-color:cornflowerblue;
+    display: flow-root;
+}

@@ -1,0 +1,17 @@
+p{
+    text-align: justify;
+}
+.gray{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: papayawhip;
+    padding:20%;
+    color:red;
+}
+ul{
+    list-style-type: lower-alpha;
+    list-style-position: outside;
+    text-align: right;
+}
+ol{
+    list-style-type: lower-alpha;
+}
