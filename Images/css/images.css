@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img{display: block;}/*This makes the img a block element*/
+
+/*Utility Classes*/
+.nowrap{
+    white-space: nowrap;
+}
+/*Utility Classes*/
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+
+    background-color: aliceblue ;
+    background-image: /* url(../img/bubbles.png), */
+    linear-gradient(to left,steelblue,white );
+/*         background-image: linear-gradient(to left, steelblue, white),url(../img/bubbles.png); */
+    background-repeat: repeat-y,no-repeat;
+    background-position: center center;
+}
+
+.hero{
+    padding:20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:20px;
+
+    background-color: peachpuff;
+    background-image: url('../img/scenic-2200x1331.png');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.h1{
+    font-size: 300%;
+    color:whitesmoke;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.caption{
+    position: absolute;
+    left: -10000px;
+}
+
+.profile-pic{
+    width:40%;
+}
+
+.profile-pic img{
+    width:100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double grey;
+    border-radius: 50%;
+}
+
+.clip{
+    text-align: center;
+    font-size: 12rem;
+    font-weight: 1000;
+    background-image: url(../img/scenic-2200x1331.png);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+/* .example{
+    margin-top: 1rem;
+    padding-left: 10px;
+    border:2px solid red;
+}
+
+.example img{
+    width:30%;
+    height:auto; //This makes it responsive and by giving height and width in HTML
+}*/          
+
+/*To see image inside the text, use
+-webkit-background-clip:text;
+background-clip:text;
+color:transparent;*/
