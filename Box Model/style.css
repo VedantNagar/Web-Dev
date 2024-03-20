@@ -1,0 +1,25 @@
+* {
+  /* CSS Reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* includes content+padding+border */
+}
+.container {
+  border: 2px dashed red;
+  outline: 5px solid purple; /* does not take space */
+  outline-offset: -10px;
+  font-size: 1.5rem;
+  margin: 1.5rem 2rem 3rem 4rem; /* Top, Right, Bottom , Left */
+}
+p {
+  padding: 1rem; /* Top, Right, Bottom , Left */
+}
+.circle {
+  background-color: aqua;
+  height: 80px;
+  width: 80px;
+  margin: 2rem auto;
+  margin-bottom: 18px;
+  border: 2.4px solid yellowgreen;
+  border-radius: 40px; /* Half of width and height */
+}
